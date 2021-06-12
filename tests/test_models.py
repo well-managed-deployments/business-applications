@@ -12,7 +12,7 @@ def test_business_application_model():
     }
 
     try:
-        models.business_application(**business_application)
+        models.BusinessApplication(**business_application)
     except ValidationError as e:
         print(str(e))
         assert False
