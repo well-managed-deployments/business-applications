@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aws-lambda-powertools = "*"
+pydantic = "*"
+
+[dev-packages]
+behave = "*"
+coverage = "*"
+faker = "*"
+moto = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.8"
