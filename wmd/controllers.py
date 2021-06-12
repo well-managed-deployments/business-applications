@@ -1,2 +1,2 @@
-def index():
+def business_application_index():
     return []
