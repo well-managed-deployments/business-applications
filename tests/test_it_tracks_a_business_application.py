@@ -1,8 +1,9 @@
 from wmd import controllers
 
 
-def test_index_returns_paginated_applications():
-    results = controllers.index()
+def test_index_returns_paginated_applications(pagination_size):
+    response = controllers.index_business_applications()
 
-    assert len(results) > 0
-    assert len(results) < 30
+    results = response.payload.get("business_applications", {})
+
+    assert 0 <= len(results) <= pagination_size
