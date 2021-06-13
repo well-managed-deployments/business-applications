@@ -5,7 +5,9 @@ name = "pypi"
 
 [packages]
 aws-lambda-powertools = "*"
+mypy-boto3-dynamodb = "*"
 pydantic = "*"
+pyhumps = "*"
 
 [dev-packages]
 behave = "*"
