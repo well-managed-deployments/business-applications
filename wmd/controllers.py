@@ -1,10 +1,6 @@
 from http import HTTPStatus
 
-from .models import (
-    BusinessApplication,
-    BusinessApplicationsCollection,
-    ControllerResponse,
-)
+from .models import BusinessApplicationsCollection, ControllerResponse
 
 
 def index_business_applications():
