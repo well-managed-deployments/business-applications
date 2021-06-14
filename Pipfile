@@ -12,7 +12,6 @@ pyhumps = "*"
 [dev-packages]
 behave = "*"
 coverage = "*"
-faker = "*"
 moto = "*"
 pytest = "*"
 pytest-cov = "*"
